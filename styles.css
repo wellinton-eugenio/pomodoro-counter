@@ -20,7 +20,7 @@ body {
   
 h1 {
     color: #722f37;
-    font-size: 148px;
+    font-size: 178px;
     text-shadow: 
                -4px -4px 0px #FFF, 
                -4px 4px 0px #FFF,                    
@@ -30,7 +30,7 @@ h1 {
 }
   
 #timer {
-    font-size: 348px;
+    font-size: 248px;
     color:#722f37;
     text-shadow: 
                -4px -4px 0px #FFF, 
@@ -47,10 +47,26 @@ button {
     border-radius: 50%;
     font-weight: 600;
     cursor: pointer;
-    color:#722f37;
-    border-color: #722f37;
+    color:#070606;
+    border: 3px solid #722f37;
+    background-color: #722f37df;
+    text-shadow: 
+        -1px -1px 0px #FFF, 
+        -1px 1px 0px #FFF,                    
+        1px -1px 0px #FFF,                  
+        1px 0px 0px #FFF;
 }
 
+button:disabled{
+    background-color: #16131361;
+    color:#fffefe;
+    border: none;
+    text-shadow: 
+        -1px -1px 0px #070606, 
+        -1px 1px 0px #070606,                    
+        1px -1px 0px #070606,                  
+        1px 0px 0px #070606;
+}
 #message {
     font-size: 128px;
     color:#722f37 ;
@@ -91,6 +107,10 @@ footer {
     gap: 20px;
     justify-content: center;
     align-items: center;
+}
+
+.text-footer{
+    font-size: 20px;
 }
 
 .link {
